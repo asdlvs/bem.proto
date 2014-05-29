@@ -1,9 +1,6 @@
 .container {
-  border: 1px solid red;
-}
-.container__blue {
-  color: lightblue;
-}
-.container__blue_hello {
-  border: 0;
+  border: 1px solid #dbe2e6;
+  border-radius: 10px;
+  background-color: #f4f8fe;
+  margin-bottom: 20px;
 }

@@ -58,3 +58,11 @@ define("menu/menu", function () {
     });
 });
 //# sourceMappingURL=menu.js.map
+ define("single/single-mod", function () {
+    console.log("mod");
+});
+//# sourceMappingURL=single-mod.js.map
+ define("single/single", function () {
+    console.log("a");
+});
+//# sourceMappingURL=single.js.map

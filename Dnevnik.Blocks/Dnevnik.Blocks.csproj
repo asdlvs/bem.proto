@@ -100,23 +100,39 @@
     <EmbeddedResource Include="Views\team_banner\team_banner.css" />
     <EmbeddedResource Include="Views\promo_menu\promo_menu.css" />
     <EmbeddedResource Include="Views\concord\concord.css" />
-    <EmbeddedResource Include="Views\widgets\settings\settings.css" />
     <EmbeddedResource Include="Views\widgets\calendar\calendar.css" />
-    <EmbeddedResource Include="Views\widgets\single\single.css" />
     <EmbeddedResource Include="Views\widgets\events\events.css" />
     <EmbeddedResource Include="Views\widgets\stats\stats.css" />
     <EmbeddedResource Include="Views\widgets\news\news.css" />
-    <EmbeddedResource Include="Views\widgets\single\single-red.css" />
-    <EmbeddedResource Include="Views\widgets\single\single-blue.css" />
     <Content Include="Views\alert\alert.css">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>alert.less</DependentUpon>
     </Content>
+    <Content Include="Views\containers\blue\blue.css">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>blue.less</DependentUpon>
+    </Content>
     <Content Include="Views\menu\menu.css">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>menu.less</DependentUpon>
+    </Content>
+    <Content Include="Views\widgets\settings\settings.css">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>settings.less</DependentUpon>
+    </Content>
+    <Content Include="Views\widgets\settings\settings_red.css">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>settings_red.less</DependentUpon>
+    </Content>
+    <Content Include="Views\widgets\single\single.css">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>single.less</DependentUpon>
     </Content>
     <Content Include="Web.config" />
   </ItemGroup>
@@ -179,10 +195,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>search.cshtml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Shared\EditorTemplates\Single.generated.cs">
+    <Compile Include="Views\shared\editortemplates\single\single1.generated.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Single.cshtml</DependentUpon>
+      <DependentUpon>single.cshtml</DependentUpon>
     </Compile>
     <Compile Include="Views\social\links\links.generated.cs">
       <AutoGen>True</AutoGen>
@@ -253,7 +269,7 @@
       <LastGenOutput>dashboard.generated.cs</LastGenOutput>
     </Content>
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\shared\_Layout.cshtml" />
     <Content Include="Views\team_banner\team_banner.cshtml">
       <Generator>RazorGenerator</Generator>
       <LastGenOutput>team_banner.generated.cs</LastGenOutput>
@@ -298,15 +314,18 @@
       <Generator>RazorGenerator</Generator>
       <LastGenOutput>stats.generated.cs</LastGenOutput>
     </Content>
-    <Content Include="Views\Shared\EditorTemplates\Single.cshtml">
+    <Content Include="Views\shared\editortemplates\single\single.cshtml">
       <Generator>RazorGenerator</Generator>
-      <LastGenOutput>Single.generated.cs</LastGenOutput>
+      <LastGenOutput>single1.generated.cs</LastGenOutput>
     </Content>
     <Content Include="Views\containers\blue\blue.cshtml">
       <Generator>RazorGenerator</Generator>
       <LastGenOutput>blue.generated.cs</LastGenOutput>
     </Content>
-    <Content Include="Views\containers\blue\blue.less" />
+    <Content Include="Views\containers\blue\blue.less">
+      <Generator>LessGenerator</Generator>
+      <LastGenOutput>blue.css</LastGenOutput>
+    </Content>
     <Content Include="Views\menu\menu.less">
       <Generator>LessGenerator</Generator>
       <LastGenOutput>menu.css</LastGenOutput>
@@ -314,6 +333,18 @@
     <Content Include="Views\alert\alert.less">
       <Generator>LessGenerator</Generator>
       <LastGenOutput>alert.css</LastGenOutput>
+    </Content>
+    <Content Include="Views\widgets\single\single.less">
+      <Generator>LessGenerator</Generator>
+      <LastGenOutput>single.css</LastGenOutput>
+    </Content>
+    <Content Include="Views\widgets\settings\settings.less">
+      <Generator>LessGenerator</Generator>
+      <LastGenOutput>settings.css</LastGenOutput>
+    </Content>
+    <Content Include="Views\widgets\settings\settings_red.less">
+      <Generator>LessGenerator</Generator>
+      <LastGenOutput>settings_red.css</LastGenOutput>
     </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -328,6 +359,8 @@
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\typings\requirejs\require.d.ts" />
     <TypeScriptCompile Include="Views\menu\menu.ts" />
+    <TypeScriptCompile Include="Views\shared\editortemplates\single\single-mod.ts" />
+    <TypeScriptCompile Include="Views\shared\editortemplates\single\single.ts" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Dnevnik.FileGenerator\Dnevnik.FileGenerator.csproj">

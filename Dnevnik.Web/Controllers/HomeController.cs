@@ -37,7 +37,7 @@ namespace Dnevnik.Web.Controllers
         [HttpPost]
         public ActionResult Index(List<Widget> widgets)
         {
-            return this.View();
+            return this.View(widgets);
         }
 
         public ActionResult Index2()

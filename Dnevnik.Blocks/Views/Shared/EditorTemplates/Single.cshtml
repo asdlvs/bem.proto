@@ -1,9 +1,0 @@
-﻿@model Dnevnik.Blocks.Models.Widget
-@{ var mainclass = ViewData["mod"] ?? "single"; }
-
-<div class="widget @("widget_" + mainclass)">
-    <h3>@Model.Title</h3>
-    <p>
-        @Html.EditorFor(w => w.Content)
-    </p>
-</div>

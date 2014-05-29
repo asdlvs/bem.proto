@@ -44,12 +44,12 @@ namespace Dnevnik.Blocks.Views.containers.blue
         {
 
 
-WriteLiteral("\r\n<div class=\"widget\">\r\n    ");
+WriteLiteral("\r\n<div class=\"container\">\r\n    ");
 
 
             
             #line 5 "..\..\Views\containers\blue\blue.cshtml"
-Write(Html.PartialWithJs(Model));
+Write(Html.Block(Model));
 
             
             #line default

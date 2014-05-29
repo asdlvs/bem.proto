@@ -36,8 +36,25 @@ namespace Dnevnik.Blocks.Views.widgets.settings
         }
         public override void Execute()
         {
-WriteLiteral("<div class=\"widget_settings\">\r\n    <br/>\r\n    <h3>Настройки</h3>\r\n    <br/>\r\n</di" +
-"v>\r\n");
+
+            
+            #line 1 "..\..\Views\widgets\settings\settings.cshtml"
+   var mainclass = "_" + ViewData["mod"]; 
+
+            
+            #line default
+            #line hidden
+WriteLiteral("<div class=\"widget__settings  ");
+
+
+            
+            #line 2 "..\..\Views\widgets\settings\settings.cshtml"
+                          Write("widget__settings" + mainclass);
+
+            
+            #line default
+            #line hidden
+WriteLiteral("\">\r\n    <br />\r\n    <h3>Настройки</h3>\r\n    <br />\r\n</div>\r\n");
 
 
         }

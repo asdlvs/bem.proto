@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Dnevnik.Console
 {
     using System.Diagnostics;
+    using System.Text.RegularExpressions;
 
     using Console = System.Console;
 
@@ -14,27 +15,16 @@ namespace Dnevnik.Console
     {
         static void Main(string[] args)
         {
-            var proc = new Process
-                       {
-                           StartInfo =
-                           {
-                               UseShellExecute = false,
-                               RedirectStandardOutput = true,
-                               FileName = @"c:\users\vlebedev\AppData\Roaming\npm\lessc.cmd",
-                               Arguments = @"D:\Projs\proto\Dnevnik.Proto\Dnevnik.Blocks\Views\menu\menu.less"
-                           }
-                       };
+            var regex = new Regex(@"^(?<path>[^\-]*)(\-?(?<mod>\S*)?)$", RegexOptions.IgnoreCase);
+            int pathPart = regex.GroupNumberFromName("path");
+            int modPart = regex.GroupNumberFromName("mod");
 
-            if(proc.Start())
-            {
-                string output = proc.StandardOutput.ReadToEnd();
-                proc.WaitForExit();
-                Console.WriteLine(output);
-            }
-            else
-            {
-                Console.WriteLine("Process couldn't be started.");
-            }
+            string value = "container/widget/widget-mod";
+            var b = regex.IsMatch(value);
+
+            var match = regex.Match(value);
+            string path = match.Groups[pathPart].Value;
+            string mod = match.Groups[modPart].Value;
         }
     }
 }

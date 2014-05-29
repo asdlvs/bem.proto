@@ -6,8 +6,8 @@ module.exports = function (grunt) {
             },
             basic_and_extras: {
                 files: {
-                    './../Dnevnik.Web/Scripts/compiled.js': ['./Views/*/*.js'],
-                    './../Dnevnik.Web/Content/compiled.css': ['./Views/*/*.css']
+                    './../Dnevnik.Web/Scripts/compiled.js': ['./Views/*/*.js','./Views/*/*/*.js','./Views/*/*/*/*.js','./Views/*/*/*/*/*.js' ],
+                    './../Dnevnik.Web/Content/compiled.css': ['./Views/*/*.css','./Views/*/*/*.css','./Views/*/*/*/*.css','./Views/*/*/*/*/*.css']
                 }
             }
         }
