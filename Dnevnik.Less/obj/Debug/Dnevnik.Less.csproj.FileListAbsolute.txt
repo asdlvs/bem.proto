@@ -1,0 +1,6 @@
+D:\Projs\proto\Dnevnik.Proto\Dnevnik.Less\bin\Debug\Dnevnik.Less.vsix
+D:\Projs\proto\Dnevnik.Proto\Dnevnik.Less\bin\Debug\extension.vsixmanifest
+D:\Projs\proto\Dnevnik.Proto\Dnevnik.Less\obj\Debug\Dnevnik.Less.csprojResolveAssemblyReference.cache
+D:\Projs\proto\Dnevnik.Proto\Dnevnik.Less\obj\Debug\Dnevnik.Less.dll
+D:\Projs\proto\Dnevnik.Proto\Dnevnik.Less\obj\Debug\Dnevnik.Less.pdb
+D:\Projs\proto\Dnevnik.Proto\Dnevnik.Less\obj\Debug\extension.vsixmanifest

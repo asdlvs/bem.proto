@@ -1,0 +1,13 @@
+.concord {
+  font-size: 1em;
+}
+.concord__copyright {
+  color: #999;
+}
+.concord__agreement {
+  color: #2291be;
+  text-decoration: none;
+}
+.concord__agreement:hover {
+  color: #f6921e;
+}

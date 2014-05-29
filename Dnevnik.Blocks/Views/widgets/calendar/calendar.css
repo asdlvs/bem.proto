@@ -1,0 +1,11 @@
+.widget {
+  border: 1px solid #dbe2e6;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.widget_calendar {
+  width: 644px;
+  min-height: 60px;
+  display: inline-block;
+  background-color: #f4f8fe;
+}

@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+
+<div class="header" style="display: inline-block; width: 100%;">
+    @Html.PartialWithAccessories("logo/logo")
+    @Html.PartialWithAccessories("profile/profile")
+    <div style="">
+        @Html.PartialWithAccessories("menu/menu")
+    </div>
+</div>
+
+<div class="body" style="display: inline-block; width: 100%;">
+    @Html.PartialWithAccessories("alert/alert")
+    <div class="dashboard" style="width: 940px;">
+        @Html.PartialWithAccessories("team_banner/team_banner")
+
+        
+        @Html.PartialWithAccessories("widgets/settings/settings")
+        <div class="dashboard__column dashboard__column_left" style="float: left; width: 670px;">
+            @Html.PartialWithAccessories("widgets/single/single", "Мои классы")
+            @Html.PartialWithAccessories("widgets/single/single-red", "Моё расписание")
+            @Html.PartialWithAccessories("widgets/single/single", "Домашние задания")
+        </div>
+        <div class="dashboard__column dashboard__column_right" style="float: right;">
+            @Html.PartialWithAccessories("widgets/news/news")
+            @Html.PartialWithAccessories("widgets/stats/stats")
+        </div>
+    </div>
+</div>
+
+<div class="footer" style="display: inline-block; width: 100%;">
+    <div style="float: left; width: 720px;">
+        @Html.PartialWithAccessories("promo_menu/promo_menu")
+        @Html.PartialWithAccessories("social/links/links")
+    </div>
+    <div style="float: left">
+        @Html.PartialWithAccessories("concord/concord")
+    </div>
+</div>
+

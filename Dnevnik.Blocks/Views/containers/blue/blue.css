@@ -1,0 +1,9 @@
+.container {
+  border: 1px solid red;
+}
+.container__blue {
+  color: lightblue;
+}
+.container__blue_hello {
+  border: 0;
+}

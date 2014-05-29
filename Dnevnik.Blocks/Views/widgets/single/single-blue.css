@@ -1,0 +1,13 @@
+.widget {
+  border: 1px solid #dbe2e6;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.widget_single-blue {
+  width: 190px;
+  min-height: 40px;
+  float: left;
+  margin-right: 20px;
+  padding: 5px 5px 5px 5px;
+  background-color: #add8e6;
+}

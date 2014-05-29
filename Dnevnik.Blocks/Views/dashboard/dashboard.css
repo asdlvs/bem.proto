@@ -1,0 +1,52 @@
+.dashboard {
+  min-width: 300px;
+  margin: 0 14px;
+  display: block;
+  width: 940px;
+}
+.dashboard__column {
+  float: left;
+}
+.dashboard__column_right {
+  margin-left: 20px;
+}
+.dashboard__column_left {
+  width: 644px;
+}
+.dashboard__widget {
+  border: 1px solid #dbe2e6;
+  border-radius: 10px;
+  background-color: #f4f8fe;
+  margin-bottom: 20px;
+}
+.dashboard__widget_settings {
+  width: 940px;
+  min-height: 100px;
+}
+.dashboard__widget_groups,
+.dashboard__widget_schedule,
+.dashboard__widget_hometasks {
+  width: 199px;
+  min-height: 40px;
+  float: left;
+}
+.dashboard__widget_schedule,
+.dashboard__widget_hometasks {
+  margin-left: 19px;
+}
+.dashboard__widget_events,
+.dashboard__widget_calendar {
+  width: 644px;
+  min-height: 60px;
+  display: inline-block;
+}
+.dashboard__widget_news,
+.dashboard__widget_stats {
+  width: 270px;
+}
+.dashboard__widget_news {
+  height: 182px;
+}
+.dashboard__widget_stats {
+  height: 171px;
+}

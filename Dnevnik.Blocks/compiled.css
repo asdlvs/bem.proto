@@ -1,0 +1,233 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+.someshit {
+  color: red; }
+  .someshit __a {
+    border: 0; }
+ .concord {
+  font-size: 1em;
+}
+.concord__copyright {
+  color: #999;
+}
+.concord__agreement {
+  color: #2291be;
+  text-decoration: none;
+}
+.concord__agreement:hover {
+  color: #f6921e;
+}
+ .dashboard {
+  min-width: 300px;
+  margin: 0 14px;
+  display: block;
+  width: 940px;
+}
+.dashboard__column {
+  float: left;
+}
+.dashboard__column_right {
+  margin-left: 20px;
+}
+.dashboard__column_left {
+  width: 644px;
+}
+.dashboard__widget {
+  border: 1px solid #dbe2e6;
+  border-radius: 10px;
+  background-color: #f4f8fe;
+  margin-bottom: 20px;
+}
+.dashboard__widget_settings {
+  width: 940px;
+  min-height: 100px;
+}
+.dashboard__widget_groups,
+.dashboard__widget_schedule,
+.dashboard__widget_hometasks {
+  width: 199px;
+  min-height: 40px;
+  float: left;
+}
+.dashboard__widget_schedule,
+.dashboard__widget_hometasks {
+  margin-left: 19px;
+}
+.dashboard__widget_events,
+.dashboard__widget_calendar {
+  width: 644px;
+  min-height: 60px;
+  display: inline-block;
+}
+.dashboard__widget_news,
+.dashboard__widget_stats {
+  width: 270px;
+}
+.dashboard__widget_news {
+  height: 182px;
+}
+.dashboard__widget_stats {
+  height: 171px;
+}
+ .logo {
+  float: left;
+  margin-top: 11px;
+}
+ .box {
+  color: #fe33ac;
+  border-color: #fdcdea;
+}
+.box div {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+ .profile {
+  display: block;
+  font-size: 1em;
+  float: right;
+}
+.profile__column {
+  float: left;
+}
+.profile__name {
+  display: block;
+  font-weight: bold;
+  height: 35px;
+  line-height: 35px;
+  text-align: right;
+}
+.profile__name__value {
+  color: #7db82d;
+  text-decoration: none;
+}
+.profile__name__value:hover {
+  color: #328fc0;
+}
+.profile__counters {
+  display: block;
+  height: 34px;
+}
+.profile__counters__layout {
+  list-style-type: none;
+  margin: 0;
+}
+.profile__counters__layout-item {
+  height: 24px;
+  float: right;
+}
+.profile__counters__item {
+  display: block;
+  height: 24px;
+  line-height: 24px;
+  float: left;
+}
+.profile__counters__item_img {
+  background: url("http://static.staging.dnevnik.ru/images/sprites/global.png");
+  width: 24px;
+}
+.profile__counters__item_img_yandex_dengi {
+  background-position: -96px -82px;
+}
+.profile__counters__item_img_wallet {
+  background-position: -10px -170px;
+}
+.profile__counters__item_img_invitations {
+  background-position: -296px -50px;
+}
+.profile__counters__item_img_friends {
+  background-position: -196px -50px;
+}
+.profile__counters__item_img_messages {
+  background-position: -96px -50px;
+}
+.profile__counters__item_value {
+  color: #f19720;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.profile__avatar {
+  display: block;
+  float: left;
+  height: 64px;
+  width: 52px;
+}
+.profile__avatar__button {
+  background-color: #fff;
+  border: solid 1px #ccc;
+  float: right;
+  padding: 1px;
+  margin-top: 15px;
+  height: 40px;
+  width: 40px;
+}
+.profile__avatar__button-img {
+  height: 40px;
+  width: 40px;
+  border: none;
+}
+.profile__logout {
+  float: left;
+  height: 74px;
+  width: 26px;
+}
+.profile__logout__button {
+  background: url("http://static.staging.dnevnik.ru/images/sprites/global.png") no-repeat -400px -67px;
+  display: block;
+  float: right;
+  height: 20px;
+  margin-top: 15px;
+  width: 18px;
+}
+ .promo_menu {
+  margin: 0;
+}
+.promo_menu__layout {
+  height: 1.4em;
+  list-style: none;
+  padding-left: 0;
+}
+.promo_menu__layout-item {
+  float: left;
+  font-size: 1.2em;
+  margin: 0 15px 0 0;
+  width: auto;
+}
+.promo_menu__item {
+  color: #2291be;
+  text-decoration: none;
+}
+.promo_menu__item:hover {
+  color: #f6921e;
+}
+.promo_menu__item_active {
+  font-weight: bold;
+  color: #f6921e;
+}
+ .search {
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px;
+  display: block;
+}
+.search__form {
+  border: none;
+}
+.search__form__text {
+  background: #fff url("http://static.staging.dnevnik.ru/images/sprites/global.png") no-repeat -432px -70px;
+  padding-left: 24px;
+}
+ .team_banner {
+  height: auto;
+  text-align: center;
+  width: 100%;
+  padding-top: 50px;
+}
+ .widget {
+  border: 1px solid #dbe2e6;
+  border-radius: 10px;
+  background-color: #f4f8fe;
+  margin-bottom: 20px;
+}

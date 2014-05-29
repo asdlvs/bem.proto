@@ -1,0 +1,95 @@
+.profile
+  display block
+  font-size 1em
+  float right
+
+  &__column
+    float left
+
+  &__name
+    display block
+    font-weight bold
+    height 35px
+    line-height 35px
+    text-align right
+    &__value
+      color #7db82d
+      text-decoration none
+    &__value:hover
+      color #328fc0
+
+  &__counters
+    display block
+    height 34px
+
+    &__layout
+      list-style-type none
+      margin 0
+
+      &-item
+        height 24px
+        float right
+
+    &__item
+      display block
+      height 24px
+      line-height 24px;
+      float left
+
+      &_img
+        background url('http://static.staging.dnevnik.ru/images/sprites/global.png')
+        width 24px
+
+        &_yandex_dengi
+          background-position -96px -82px
+
+        &_wallet
+          background-position -10px -170px
+
+        &_invitations
+          background-position -296px -50px
+
+        &_friends
+          background-position -196px -50px
+
+        &_messages
+          background-position -96px -50px
+
+      &_value
+        color #f19720
+        font-weight bold
+        margin-left 8px
+        margin-right 8px
+
+  &__avatar
+    display block
+    float left
+    height 64px
+    width 52px
+
+    &__button
+      background-color #ffffff
+      border solid 1px #cccccc
+      float right
+      padding 1px
+      margin-top 15px
+      height 40px
+      width 40px
+
+      &-img
+        height 40px
+        width 40px
+        border none
+
+  &__logout
+    float left
+    height 74px
+    width 26px
+
+    &__button
+      background: url(http://static.staging.dnevnik.ru/images/sprites/global.png) no-repeat -400px -67px
+      display block
+      float right
+      height 20px
+      margin-top 15px
+      width 18px

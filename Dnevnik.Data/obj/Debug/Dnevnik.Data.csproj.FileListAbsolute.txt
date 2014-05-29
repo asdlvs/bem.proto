@@ -1,0 +1,5 @@
+D:\Projs\proto\Dnevnik.Proto\Dnevnik.Data\bin\Debug\Dnevnik.Data.dll
+D:\Projs\proto\Dnevnik.Proto\Dnevnik.Data\bin\Debug\Dnevnik.Data.pdb
+D:\Projs\proto\Dnevnik.Proto\Dnevnik.Data\obj\Debug\Dnevnik.Data.csprojResolveAssemblyReference.cache
+D:\Projs\proto\Dnevnik.Proto\Dnevnik.Data\obj\Debug\Dnevnik.Data.dll
+D:\Projs\proto\Dnevnik.Proto\Dnevnik.Data\obj\Debug\Dnevnik.Data.pdb

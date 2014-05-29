@@ -1,0 +1,25 @@
+.promo_menu {
+  margin: 0;
+}
+.promo_menu__layout {
+  height: 1.4em;
+  list-style: none;
+  padding-left: 0;
+}
+.promo_menu__layout-item {
+  float: left;
+  font-size: 1.2em;
+  margin: 0 15px 0 0;
+  width: auto;
+}
+.promo_menu__item {
+  color: #2291be;
+  text-decoration: none;
+}
+.promo_menu__item:hover {
+  color: #f6921e;
+}
+.promo_menu__item_active {
+  font-weight: bold;
+  color: #f6921e;
+}

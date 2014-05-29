@@ -1,0 +1,53 @@
+﻿@model List<Dnevnik.Blocks.Models.Widget>
+@{
+    ViewBag.Title = "Index";
+
+}
+
+
+<div class="header" style="display: inline-block; width: 100%;">
+    @Html.Partial("logo/logo")
+    @Html.Partial("search/search")
+    @Html.Partial("profile/profile")
+    <div style="">
+        @Html.PartialWithJs("menu/menu")
+    </div>
+</div>
+
+<div class="body" style="display: inline-block; width: 100%;">
+    @Html.Partial("alert/alert")
+    <div class="dashboard" style="width: 940px;">
+        @Html.Partial("containers/blue/blue", "widgets/settings/settings")
+        <div class="dashboard__column dashboard__column_left" style="float: left; width: 670px;">
+
+            @using (@Html.BeginForm())
+            {
+                for (int i = 0; i < Model.Count; i++)
+                {
+                    @Html.EditorFor(w => Model[i], "Single")
+                }
+                <input type="submit" value="press" />
+            }
+
+            @Html.Partial("widgets/calendar/calendar")
+            @Html.Partial("widgets/events/events")
+
+        </div>
+        <div class="dashboard__column dashboard__column_right" style="float: right;">
+            @Html.Partial("widgets/news/news")
+            @Html.Partial("widgets/stats/stats")
+        </div>
+    </div>
+</div>
+
+<div class="footer" style="display: inline-block; width: 100%;">
+    @Html.Partial("team_banner/team_banner")
+    <div style="float: left; width: 720px;">
+        @Html.Partial("promo_menu/promo_menu")
+        @Html.Partial("social/links/links")
+    </div>
+    <div style="float: left">
+        @Html.Partial("concord/concord")
+    </div>
+</div>
+

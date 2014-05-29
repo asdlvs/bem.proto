@@ -1,0 +1,13 @@
+.search {
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px;
+  display: block;
+}
+.search__form {
+  border: none;
+}
+.search__form__text {
+  background: #fff url("http://static.staging.dnevnik.ru/images/sprites/global.png") no-repeat -432px -70px;
+  padding-left: 24px;
+}
