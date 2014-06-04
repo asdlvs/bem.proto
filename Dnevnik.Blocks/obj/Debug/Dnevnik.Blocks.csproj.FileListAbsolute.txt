@@ -19,5 +19,3 @@ D:\Projs\proto\Dnevnik.Proto\Dnevnik.Blocks\obj\Debug\Dnevnik.Blocks.csprojResol
 D:\Projs\proto\Dnevnik.Proto\Dnevnik.Blocks\bin\Microsoft.Web.Infrastructure.dll
 D:\Projs\proto\Dnevnik.Proto\Dnevnik.Blocks\bin\RazorGenerator.Mvc.dll
 D:\Projs\proto\Dnevnik.Proto\Dnevnik.Blocks\bin\WebActivatorEx.dll
-D:\Projs\proto\Dnevnik.Proto\Dnevnik.Blocks\bin\Dnevnik.FileGenerator.dll
-D:\Projs\proto\Dnevnik.Proto\Dnevnik.Blocks\bin\Dnevnik.FileGenerator.pdb

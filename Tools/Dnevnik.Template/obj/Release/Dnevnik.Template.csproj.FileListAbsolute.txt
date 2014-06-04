@@ -1,0 +1,5 @@
+D:\Projs\proto\Dnevnik.Proto\Tools\Dnevnik.Template\bin\Release\ItemTemplates\CSharp\1033\Dnevnik.Template.zip
+D:\Projs\proto\Dnevnik.Proto\Tools\Dnevnik.Template\obj\Release\CSharp\1033\Dnevnik.Template.zip
+D:\Projs\proto\Dnevnik.Proto\Tools\Dnevnik.Template\obj\Release\Dnevnik.Template.dll
+D:\Projs\proto\Dnevnik.Proto\Tools\Dnevnik.Template\obj\Release\Dnevnik.Template.pdb
+D:\Projs\proto\Dnevnik.Proto\Tools\Dnevnik.Template\obj\Release\Dnevnik.Template.csprojResolveAssemblyReference.cache

@@ -7,10 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dnevnik.Web", "Dnevnik.Web\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dnevnik.Blocks", "Dnevnik.Blocks\Dnevnik.Blocks.csproj", "{F2BB8827-29B7-43F9-899D-6CEFB16271D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dnevnik.FileGenerator", "Dnevnik.FileGenerator\Dnevnik.FileGenerator.csproj", "{F1C01A32-BFDA-4190-81DC-B8C0FDAED6AB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dnevnik.Console", "Dnevnik.Console\Dnevnik.Console.csproj", "{04275B40-E0E9-4DFB-A633-4726933DE88F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,14 +21,6 @@ Global
 		{F2BB8827-29B7-43F9-899D-6CEFB16271D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2BB8827-29B7-43F9-899D-6CEFB16271D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2BB8827-29B7-43F9-899D-6CEFB16271D6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F1C01A32-BFDA-4190-81DC-B8C0FDAED6AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F1C01A32-BFDA-4190-81DC-B8C0FDAED6AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F1C01A32-BFDA-4190-81DC-B8C0FDAED6AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F1C01A32-BFDA-4190-81DC-B8C0FDAED6AB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{04275B40-E0E9-4DFB-A633-4726933DE88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04275B40-E0E9-4DFB-A633-4726933DE88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04275B40-E0E9-4DFB-A633-4726933DE88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04275B40-E0E9-4DFB-A633-4726933DE88F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

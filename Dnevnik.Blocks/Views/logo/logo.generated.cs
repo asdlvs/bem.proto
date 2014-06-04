@@ -27,6 +27,12 @@ namespace Dnevnik.Blocks.Views.logo
     using System.Web.UI;
     using System.Web.WebPages;
     
+    #line 1 "..\..\Views\logo\logo.cshtml"
+    using Dnevnik.Blocks.Helpers;
+    
+    #line default
+    #line hidden
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("RazorGenerator", "2.0.0.0")]
     [System.Web.WebPages.PageVirtualPathAttribute("~/Views/logo/logo.cshtml")]
     public partial class logo : System.Web.Mvc.WebViewPage<dynamic>
@@ -36,8 +42,19 @@ namespace Dnevnik.Blocks.Views.logo
         }
         public override void Execute()
         {
-WriteLiteral("\r\n<div class=\"logo\">\r\n    <img src=\"http://static.staging.dnevnik.ru/images/logo/" +
-"dnevnik.ru.png\" title=\"Дневник.ру\" />\r\n</div>\r\n");
+
+WriteLiteral("\r\n<div class=\"logo ");
+
+
+            
+            #line 3 "..\..\Views\logo\logo.cshtml"
+            Write(Html.BlockCss());
+
+            
+            #line default
+            #line hidden
+WriteLiteral("\">\r\n    <img src=\"http://static.staging.dnevnik.ru/images/logo/dnevnik.ru.png\" ti" +
+"tle=\"Дневник.ру\" />\r\n</div>\r\n");
 
 
         }

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Dnevnik.Template</Name>
+    <Description>Dnevnik.Template</Description>
+    <Icon>Dnevnik.Template.ico</Icon>
+    <TemplateID>1e6fede2-1621-4514-b6ca-f225495834a3</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem CustomTool="RazorGenerator" ReplaceParameters="true" TargetFileName="$fileinputname$.cshtml">item.cshtml</ProjectItem>
+    <ProjectItem CustomTool="LessGenerator" ReplaceParameters="true" TargetFileName="$fileinputname$.less">item.less</ProjectItem>
+    <ProjectItem CustomTool="TscGenerator" ReplaceParameters="true" TargetFileName="$fileinputname$.ts">item.ts</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

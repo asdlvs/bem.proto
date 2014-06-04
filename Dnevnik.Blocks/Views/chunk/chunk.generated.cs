@@ -27,6 +27,12 @@ namespace Dnevnik.Blocks.Views.chunk
     using System.Web.UI;
     using System.Web.WebPages;
     
+    #line 1 "..\..\Views\chunk\chunk.cshtml"
+    using Dnevnik.Blocks.Helpers;
+    
+    #line default
+    #line hidden
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("RazorGenerator", "2.0.0.0")]
     [System.Web.WebPages.PageVirtualPathAttribute("~/Views/chunk/chunk.cshtml")]
     public partial class chunk : System.Web.Mvc.WebViewPage<dynamic>
@@ -36,9 +42,18 @@ namespace Dnevnik.Blocks.Views.chunk
         }
         public override void Execute()
         {
-WriteLiteral("\r\n<div class=\"chunk\">\r\n    <h3 class=\"chunk__header\"></h3>  \r\n    <ul class=\"chun" +
-"k__header__items__layout\">\r\n        <li class=\"chunk__header__items__layout-item" +
-"\">\r\n            \r\n        </li>\r\n    </ul>\r\n</div>");
+
+WriteLiteral("\r\n<div class=\"chunk ");
+
+
+            
+            #line 3 "..\..\Views\chunk\chunk.cshtml"
+             Write(Html.BlockCss());
+
+            
+            #line default
+            #line hidden
+WriteLiteral("\">\r\n\r\n</div>");
 
 
         }

@@ -1,5 +1,0 @@
-D:\Projs\proto\Dnevnik.Proto\Dnevnik.FileGenerator\bin\Debug\Dnevnik.FileGenerator.dll
-D:\Projs\proto\Dnevnik.Proto\Dnevnik.FileGenerator\bin\Debug\Dnevnik.FileGenerator.pdb
-D:\Projs\proto\Dnevnik.Proto\Dnevnik.FileGenerator\obj\Debug\Dnevnik.FileGenerator.csprojResolveAssemblyReference.cache
-D:\Projs\proto\Dnevnik.Proto\Dnevnik.FileGenerator\obj\Debug\Dnevnik.FileGenerator.dll
-D:\Projs\proto\Dnevnik.Proto\Dnevnik.FileGenerator\obj\Debug\Dnevnik.FileGenerator.pdb

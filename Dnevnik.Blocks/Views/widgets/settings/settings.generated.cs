@@ -27,9 +27,15 @@ namespace Dnevnik.Blocks.Views.widgets.settings
     using System.Web.UI;
     using System.Web.WebPages;
     
+    #line 1 "..\..\Views\widgets\settings\settings.cshtml"
+    using Dnevnik.Blocks.Helpers;
+    
+    #line default
+    #line hidden
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("RazorGenerator", "2.0.0.0")]
     [System.Web.WebPages.PageVirtualPathAttribute("~/Views/widgets/settings/settings.cshtml")]
-    public partial class settings : System.Web.Mvc.WebViewPage<dynamic>
+    public partial class settings : System.Web.Mvc.WebViewPage<string[]>
     {
         public settings()
         {
@@ -37,24 +43,49 @@ namespace Dnevnik.Blocks.Views.widgets.settings
         public override void Execute()
         {
 
+
+WriteLiteral("\r\n<div class=\"settings  ");
+
+
             
-            #line 1 "..\..\Views\widgets\settings\settings.cshtml"
-   var mainclass = "_" + ViewData["mod"]; 
+            #line 4 "..\..\Views\widgets\settings\settings.cshtml"
+                 Write(Html.BlockCss());
 
             
             #line default
             #line hidden
-WriteLiteral("<div class=\"widget__settings  ");
+WriteLiteral("\">\r\n");
 
 
             
-            #line 2 "..\..\Views\widgets\settings\settings.cshtml"
-                          Write("widget__settings" + mainclass);
+            #line 5 "..\..\Views\widgets\settings\settings.cshtml"
+     foreach(string item in Model)
+    {
 
             
             #line default
             #line hidden
-WriteLiteral("\">\r\n    <br />\r\n    <h3>Настройки</h3>\r\n    <br />\r\n</div>\r\n");
+WriteLiteral("        <p>");
+
+
+            
+            #line 7 "..\..\Views\widgets\settings\settings.cshtml"
+      Write(item);
+
+            
+            #line default
+            #line hidden
+WriteLiteral("</p>\r\n");
+
+
+            
+            #line 8 "..\..\Views\widgets\settings\settings.cshtml"
+    }
+
+            
+            #line default
+            #line hidden
+WriteLiteral("</div>\r\n");
 
 
         }

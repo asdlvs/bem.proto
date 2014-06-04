@@ -1,53 +1,62 @@
-﻿@model List<Dnevnik.Blocks.Models.Widget>
+﻿@using Dnevnik.Blocks.Core
 @{
     ViewBag.Title = "Index";
 
 }
 
-
 <div class="header" style="display: inline-block; width: 100%;">
-    @Html.Block("logo/logo")
-    @Html.Block("search/search")
-    @Html.Block("profile/profile")
+    
+    @Html.Block(new Block
+                {
+                    Name = "logo",
+                    Mods = new[] { "red", "big" }
+                })
+
+    @Html.Block("search", new { defaultValue = "Поиск" })
+    @Html.Block("profile")
+
     <div style="">
-        @Html.BlockWithJs("menu/menu")
+        @Html.BlockWithJs(new Block
+                          {
+                              Name = "menu"
+                          })
+
     </div>
 </div>
-
 <div class="body" style="display: inline-block; width: 100%;">
-    @Html.Block("alert/alert")
-    <div class="dashboard" style="width: 940px;">
-        @Html.Block("containers/blue/blue", "widgets/settings/settings")
-        <div class="dashboard__column dashboard__column_left" style="float: left; width: 670px;">
-
-            @using (@Html.BeginForm())
-            {
-                for (int i = 0; i < Model.Count; i++)
+    @Html.Block(new Block
                 {
-                    @Html.EditorBlockForWithJs(w => Model[i], i == 2 ? "single/single" : "single/single-mod")
-                }
-                <input type="submit" value="press" />
-            }
-
-            @Html.Block("widgets/calendar/calendar")
-            @Html.Block("widgets/events/events")
-
-        </div>
-        <div class="dashboard__column dashboard__column_right" style="float: right;">
-            @Html.Block("widgets/news/news")
-            @Html.Block("widgets/stats/stats")
-        </div>
-    </div>
+                    Name = "containers/blue",
+                    Mods = new[] { "rectangle" },
+                    Inners = new[]
+                             {
+                                 new Block
+                                 {
+                                     Name = "containers/blue",
+                                     Inners = new []
+                                              {
+                                                  new Block
+                                                    {
+                                                        Name = "widgets/settings",
+                                                        Mods = new [] { "border" },
+                                                        Model = new [] { "Hello", "world", "!" },
+                                                        WithJs = true
+                                                    }
+                                              },
+                                              Model = "Second level"
+                                 }
+                             }
+                }, "Заголовок")
 </div>
 
 <div class="footer" style="display: inline-block; width: 100%;">
-    @Html.Block("team_banner/team_banner")
+    @Html.Block("team_banner")
     <div style="float: left; width: 720px;">
-        @Html.Block("promo_menu/promo_menu")
-        @Html.Block("social/links/links")
+        @Html.Block("promo_menu")
+        @Html.Block("social/links")
     </div>
     <div style="float: left">
-        @Html.Block("concord/concord")
+        @Html.Block("concord")
     </div>
 </div>
 

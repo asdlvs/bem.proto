@@ -101,12 +101,10 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\web.config" />
-    <Content Include="Views\Home\Index2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\UtilityController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -134,10 +132,6 @@
     <ProjectReference Include="..\Dnevnik.Blocks\Dnevnik.Blocks.csproj">
       <Project>{f2bb8827-29b7-43f9-899d-6cefb16271d6}</Project>
       <Name>Dnevnik.Blocks</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Dnevnik.FileGenerator\Dnevnik.FileGenerator.csproj">
-      <Project>{f1c01a32-bfda-4190-81dc-b8c0fdaed6ab}</Project>
-      <Name>Dnevnik.FileGenerator</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

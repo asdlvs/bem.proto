@@ -36,39 +36,50 @@ namespace Dnevnik.Blocks.Views.menu
         }
         public override void Execute()
         {
-WriteLiteral("<div class=\"menu\">\r\n    <ul class=\"menu__layout\">\r\n        <li class=\"menu__layou" +
-"t-item\">\r\n            <a href=\"#\" class=\"menu__item__link menu__item__link_activ" +
-"e\">Мой дневник</a>\r\n            <ul class=\"menu__item__submenu__layout menu__ite" +
-"m__submenu__layout_active\">\r\n                <li class=\"menu__item__submenu__lay" +
-"out-item\">\r\n                    <a href=\"#\" class=\"menu__item__submenu__item\">\r\n" +
-"                        Профиль\r\n                    </a>\r\n                </li>" +
-"\r\n                <li class=\"menu__item__submenu__layout-item\">\r\n               " +
-"     <a href=\"#\" class=\"menu__item__submenu__item\">\r\n                        Соо" +
-"бщения\r\n                    </a>\r\n                </li>\r\n                <li cla" +
-"ss=\"menu__item__submenu__layout-item\">\r\n                    <a href=\"#\" class=\"m" +
-"enu__item__submenu__item\">\r\n                        Почта\r\n                    <" +
-"/a>\r\n                </li>\r\n            </ul>\r\n        </li>\r\n        <li class=" +
-"\"menu__layout-item\">\r\n            <a href=\"#\" class=\"menu__item__link\">Общение</" +
-"a>\r\n            <ul class=\"menu__item__submenu__layout\">\r\n                <li cl" +
-"ass=\"menu__item__submenu__layout-item\">\r\n                    <a href=\"#\" class=\"" +
-"menu__item__submenu__item\">\r\n                        Люди\r\n                    <" +
-"/a>\r\n                </li>\r\n                <li class=\"menu__item__submenu__layo" +
-"ut-item\">\r\n                    <a href=\"#\" class=\"menu__item__submenu__item\">\r\n " +
-"                       Группы\r\n                    </a>\r\n                </li>\r\n" +
-"                <li class=\"menu__item__submenu__layout-item\">\r\n                 " +
-"   <a href=\"#\" class=\"menu__item__submenu__item\">\r\n                        Событ" +
-"ия\r\n                    </a>\r\n                </li>\r\n            </ul>\r\n        " +
-"</li>\r\n        <li class=\"menu__layout-item\">\r\n            <a href=\"#\" class=\"me" +
-"nu__item__link\">Школа</a>\r\n            <ul class=\"menu__item__submenu__layout\">\r" +
-"\n                <li class=\"menu__item__submenu__layout-item\">\r\n                " +
-"    <a href=\"#\" class=\"menu__item__submenu__item\">\r\n                        Расп" +
-"исания\r\n                    </a>\r\n                </li>\r\n                <li cla" +
-"ss=\"menu__item__submenu__layout-item\">\r\n                    <a href=\"#\" class=\"m" +
-"enu__item__submenu__item\">\r\n                        Журналы\r\n                   " +
-" </a>\r\n                </li>\r\n                <li class=\"menu__item__submenu__la" +
-"yout-item\">\r\n                    <a href=\"#\" class=\"menu__item__submenu__item\">\r" +
-"\n                        Отчёты\r\n                    </a>\r\n                </li>" +
-"\r\n            </ul>\r\n        </li>\r\n    </ul>\r\n</div>\r\n");
+WriteLiteral(@"<div class=""menu"">
+    <ul class=""menu__layout"">
+        <li class=""menu__layout-item"">
+            <a href=""#"" class=""menu__item__link menu__item__link_active"">Мой дневник</a>
+            <ul class=""menu__item__submenu__layout menu__item__submenu__layout_active"">
+                <li class=""menu__item__submenu__layout-item"">
+                    <a href=""#"" class=""menu__item__submenu__item"">
+                        ");
+
+
+            
+            #line 8 "..\..\Views\menu\menu.cshtml"
+                   Write(Model);
+
+            
+            #line default
+            #line hidden
+WriteLiteral("\r\n                    </a>\r\n                </li>\r\n                <li class=\"men" +
+"u__item__submenu__layout-item\">\r\n                    <a href=\"#\" class=\"menu__it" +
+"em__submenu__item\">\r\n                    </a>\r\n                </li>\r\n          " +
+"      <li class=\"menu__item__submenu__layout-item\">\r\n                    <a href" +
+"=\"#\" class=\"menu__item__submenu__item\">\r\n                        Почта\r\n        " +
+"            </a>\r\n                </li>\r\n            </ul>\r\n        </li>\r\n     " +
+"   <li class=\"menu__layout-item\">\r\n            <a href=\"#\" class=\"menu__item__li" +
+"nk\">Общение</a>\r\n            <ul class=\"menu__item__submenu__layout\">\r\n         " +
+"       <li class=\"menu__item__submenu__layout-item\">\r\n                    <a hre" +
+"f=\"#\" class=\"menu__item__submenu__item\">\r\n                        Люди\r\n        " +
+"            </a>\r\n                </li>\r\n                <li class=\"menu__item__" +
+"submenu__layout-item\">\r\n                    <a href=\"#\" class=\"menu__item__subme" +
+"nu__item\">\r\n                        Группы\r\n                    </a>\r\n          " +
+"      </li>\r\n                <li class=\"menu__item__submenu__layout-item\">\r\n    " +
+"                <a href=\"#\" class=\"menu__item__submenu__item\">\r\n                " +
+"        События\r\n                    </a>\r\n                </li>\r\n            </" +
+"ul>\r\n        </li>\r\n        <li class=\"menu__layout-item\">\r\n            <a href=" +
+"\"#\" class=\"menu__item__link\">Школа</a>\r\n            <ul class=\"menu__item__subme" +
+"nu__layout\">\r\n                <li class=\"menu__item__submenu__layout-item\">\r\n   " +
+"                 <a href=\"#\" class=\"menu__item__submenu__item\">\r\n               " +
+"         Расписания\r\n                    </a>\r\n                </li>\r\n          " +
+"      <li class=\"menu__item__submenu__layout-item\">\r\n                    <a href" +
+"=\"#\" class=\"menu__item__submenu__item\">\r\n                        Журналы\r\n      " +
+"              </a>\r\n                </li>\r\n                <li class=\"menu__item" +
+"__submenu__layout-item\">\r\n                    <a href=\"#\" class=\"menu__item__sub" +
+"menu__item\">\r\n                        Отчёты\r\n                    </a>\r\n        " +
+"        </li>\r\n            </ul>\r\n        </li>\r\n    </ul>\r\n</div>\r\n");
 
 
         }

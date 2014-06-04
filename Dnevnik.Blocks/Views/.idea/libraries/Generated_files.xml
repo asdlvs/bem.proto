@@ -2,11 +2,21 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/shared/editortemplates/single/single.js" />
+        <item url="file://$PROJECT_DIR$/social/links/links.js" />
         <item url="file://$PROJECT_DIR$/menu/menu.js" />
+        <item url="file://$PROJECT_DIR$/someshit/someshit.js" />
         <item url="file://$PROJECT_DIR$/dashboard/dashboard.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/item/item.js" />
+      <root url="file://$PROJECT_DIR$/hello/hello.js" />
+      <root url="file://$PROJECT_DIR$/item/item.js" />
+      <root url="file://$PROJECT_DIR$/hello/hello.js" />
+      <root url="file://$PROJECT_DIR$/shared/editortemplates/single/single.js" />
+      <root url="file://$PROJECT_DIR$/social/links/links.js" />
+      <root url="file://$PROJECT_DIR$/someshit/someshit.js" />
       <root url="file://$PROJECT_DIR$/menu/menu.js" />
       <root url="file://$PROJECT_DIR$/dashboard/dashboard.js" />
     </CLASSES>

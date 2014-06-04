@@ -44,12 +44,22 @@ namespace Dnevnik.Blocks.Views.containers.blue
         {
 
 
-WriteLiteral("\r\n<div class=\"container\">\r\n    ");
+WriteLiteral("\r\n<div class=\"container\">\r\n    <h3>");
 
 
             
             #line 5 "..\..\Views\containers\blue\blue.cshtml"
-Write(Html.Block(Model));
+   Write(Model);
+
+            
+            #line default
+            #line hidden
+WriteLiteral("</h3>\r\n    ");
+
+
+            
+            #line 6 "..\..\Views\containers\blue\blue.cshtml"
+Write(Html.Inners());
 
             
             #line default

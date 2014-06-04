@@ -1,0 +1,6 @@
+D:\Projs\proto\Dnevnik.Proto\Tools\Dnevnik.FileGenerator\bin\Release\Dnevnik.FileGenerator.dll
+D:\Projs\proto\Dnevnik.Proto\Tools\Dnevnik.FileGenerator\bin\Release\Dnevnik.FileGenerator.pdb
+D:\Projs\proto\Dnevnik.Proto\Tools\Dnevnik.FileGenerator\obj\Release\Dnevnik.FileGenerator.dll
+D:\Projs\proto\Dnevnik.Proto\Tools\Dnevnik.FileGenerator\obj\Release\Dnevnik.FileGenerator.pdb
+D:\Projs\proto\Dnevnik.Proto\Tools\Dnevnik.FileGenerator\obj\Release\Dnevnik.FileGenerator.csprojResolveAssemblyReference.cache
+D:\Projs\proto\Dnevnik.Proto\Tools\Dnevnik.FileGenerator\bin\Release\Dnevnik.FileGenerator.dll.config

@@ -1,0 +1,25 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\VisualStudio\12.0_Config\CLSID\{295A802C-A100-4858-BD7D-AB6C2904DE6B}]
+"InprocServer32"="C:\\Windows\\System32\\mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Dnevnik.FileGenerator.LessGenerator"
+"Assembly"="Dnevnik.FileGenerator, Version=1.0.0.0, Culture=neutral"
+"CodeBase"="file:///%userprofile%\\AppData\\Roaming\\Dnevnik\\Dnevnik.FileGenerator.dll"
+ 
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\12.0_Config\Generators\{FAE04EC1-301F-11D3-BF4B-00C04F79EFBC}\LessGenerator]
+"CLSID"="{295A802C-A100-4858-BD7D-AB6C2904DE6B}"
+"GeneratesDesignTimeSource"=dword:00000001
+@="LessGenerator"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\VisualStudio\12.0_Config\CLSID\{447D1A79-F4C4-43B7-BFB0-6BB5863D592B}]
+"InprocServer32"="C:\\Windows\\System32\\mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Dnevnik.FileGenerator.TscGenerator"
+"Assembly"="Dnevnik.FileGenerator, Version=1.0.0.0, Culture=neutral"
+"CodeBase"="file:///%userprofile%\\AppData\\Roaming\\Dnevnik\\Dnevnik.FileGenerator.dll"
+ 
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\12.0_Config\Generators\{FAE04EC1-301F-11D3-BF4B-00C04F79EFBC}\TscGenerator]
+"CLSID"="{447D1A79-F4C4-43B7-BFB0-6BB5863D592B}"
+"GeneratesDesignTimeSource"=dword:00000001
+@="TscGenerator"

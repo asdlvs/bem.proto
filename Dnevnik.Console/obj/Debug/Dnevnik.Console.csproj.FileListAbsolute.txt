@@ -1,6 +1,0 @@
-D:\Projs\proto\Dnevnik.Proto\Dnevnik.Console\bin\Debug\Dnevnik.Console.exe.config
-D:\Projs\proto\Dnevnik.Proto\Dnevnik.Console\bin\Debug\Dnevnik.Console.exe
-D:\Projs\proto\Dnevnik.Proto\Dnevnik.Console\bin\Debug\Dnevnik.Console.pdb
-D:\Projs\proto\Dnevnik.Proto\Dnevnik.Console\obj\Debug\Dnevnik.Console.csprojResolveAssemblyReference.cache
-D:\Projs\proto\Dnevnik.Proto\Dnevnik.Console\obj\Debug\Dnevnik.Console.exe
-D:\Projs\proto\Dnevnik.Proto\Dnevnik.Console\obj\Debug\Dnevnik.Console.pdb

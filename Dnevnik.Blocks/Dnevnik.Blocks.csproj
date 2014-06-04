@@ -92,14 +92,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\search\search.css" />
-    <EmbeddedResource Include="Views\logo\logo.css" />
     <EmbeddedResource Include="Views\profile\profile.css" />
-    <EmbeddedResource Include="Views\dashboard\dashboard.css" />
-    <EmbeddedResource Include="Views\dashboard\dashboard.js" />
     <EmbeddedResource Include="Views\team_banner\team_banner.css" />
     <EmbeddedResource Include="Views\promo_menu\promo_menu.css" />
-    <EmbeddedResource Include="Views\concord\concord.css" />
     <EmbeddedResource Include="Views\widgets\calendar\calendar.css" />
     <EmbeddedResource Include="Views\widgets\events\events.css" />
     <EmbeddedResource Include="Views\widgets\stats\stats.css" />
@@ -109,25 +104,60 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>alert.less</DependentUpon>
     </Content>
+    <Content Include="Views\chunk\chunk.css">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>chunk.less</DependentUpon>
+    </Content>
+    <Content Include="Views\chunk\chunk.js">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>chunk.ts</DependentUpon>
+    </Content>
     <Content Include="Views\containers\blue\blue.css">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>blue.less</DependentUpon>
+    </Content>
+    <Content Include="Views\item\item.css">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>item.less</DependentUpon>
+    </Content>
+    <Content Include="Views\item\item.js">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>item.ts</DependentUpon>
+    </Content>
+    <Content Include="Views\logo\logo-big.css">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>logo-big.less</DependentUpon>
+    </Content>
+    <Content Include="Views\logo\logo-red.css">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>logo-red.less</DependentUpon>
+    </Content>
+    <Content Include="Views\logo\logo.css">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>logo.less</DependentUpon>
     </Content>
     <Content Include="Views\menu\menu.css">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>menu.less</DependentUpon>
     </Content>
-    <Content Include="Views\widgets\settings\settings.css">
+    <Content Include="Views\menu\menu.js">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>settings.less</DependentUpon>
+      <DependentUpon>menu.ts</DependentUpon>
     </Content>
-    <Content Include="Views\widgets\settings\settings_red.css">
+    <Content Include="Views\search\search.js">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>settings_red.less</DependentUpon>
+      <DependentUpon>search.ts</DependentUpon>
     </Content>
     <Content Include="Views\widgets\single\single.css">
       <AutoGen>True</AutoGen>
@@ -140,10 +170,10 @@
     <Compile Include="App_Start\RazorGeneratorMvcStart.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Core\Block.cs" />
     <Compile Include="Helpers\BlocksHtmlHelper.cs" />
     <Compile Include="Models\Profile.cs" />
     <Compile Include="Models\Widget.cs" />
-    <Compile Include="Target.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\alert\alert.generated.cs">
       <AutoGen>True</AutoGen>
@@ -165,10 +195,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>blue.cshtml</DependentUpon>
     </Compile>
-    <Compile Include="Views\dashboard\dashboard.generated.cs">
+    <Compile Include="Views\item\item.generated.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>dashboard.cshtml</DependentUpon>
+      <DependentUpon>item.cshtml</DependentUpon>
     </Compile>
     <Compile Include="Views\logo\logo.generated.cs">
       <AutoGen>True</AutoGen>
@@ -195,15 +225,15 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>search.cshtml</DependentUpon>
     </Compile>
-    <Compile Include="Views\shared\editortemplates\single\single1.generated.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>single.cshtml</DependentUpon>
-    </Compile>
     <Compile Include="Views\social\links\links.generated.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>links.cshtml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\someshit\someshit.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>someshit.cshtml</DependentUpon>
     </Compile>
     <Compile Include="Views\team_banner\team_banner.generated.cs">
       <AutoGen>True</AutoGen>
@@ -260,14 +290,6 @@
       <Generator>RazorGenerator</Generator>
       <LastGenOutput>menu.generated.cs</LastGenOutput>
     </Content>
-    <Content Include="Views\chunk\chunk.cshtml">
-      <Generator>RazorGenerator</Generator>
-      <LastGenOutput>chunk.generated.cs</LastGenOutput>
-    </Content>
-    <Content Include="Views\dashboard\dashboard.cshtml">
-      <Generator>RazorGenerator</Generator>
-      <LastGenOutput>dashboard.generated.cs</LastGenOutput>
-    </Content>
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\shared\_Layout.cshtml" />
     <Content Include="Views\team_banner\team_banner.cshtml">
@@ -314,10 +336,6 @@
       <Generator>RazorGenerator</Generator>
       <LastGenOutput>stats.generated.cs</LastGenOutput>
     </Content>
-    <Content Include="Views\shared\editortemplates\single\single.cshtml">
-      <Generator>RazorGenerator</Generator>
-      <LastGenOutput>single1.generated.cs</LastGenOutput>
-    </Content>
     <Content Include="Views\containers\blue\blue.cshtml">
       <Generator>RazorGenerator</Generator>
       <LastGenOutput>blue.generated.cs</LastGenOutput>
@@ -338,13 +356,53 @@
       <Generator>LessGenerator</Generator>
       <LastGenOutput>single.css</LastGenOutput>
     </Content>
+    <Content Include="Views\someshit\someshit.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>someshit.generated.cs</LastGenOutput>
+    </Content>
+    <Content Include="Views\someshit\someshit.less">
+      <Generator>LessGenerator</Generator>
+      <LastGenOutput>someshit.css</LastGenOutput>
+    </Content>
+    <Content Include="Views\item\item.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>item.generated.cs</LastGenOutput>
+    </Content>
+    <Content Include="Views\item\item.less">
+      <Generator>LessGenerator</Generator>
+      <LastGenOutput>item.css</LastGenOutput>
+    </Content>
+    <Content Include="Views\search\search.less">
+      <Generator>LessGenerator</Generator>
+      <LastGenOutput>search.css</LastGenOutput>
+    </Content>
+    <Content Include="Views\logo\logo-red.less">
+      <Generator>LessGenerator</Generator>
+      <LastGenOutput>logo-red.css</LastGenOutput>
+    </Content>
+    <Content Include="Views\logo\logo.less">
+      <Generator>LessGenerator</Generator>
+      <LastGenOutput>logo.css</LastGenOutput>
+    </Content>
+    <Content Include="Views\logo\logo-big.less">
+      <Generator>LessGenerator</Generator>
+      <LastGenOutput>logo-big.css</LastGenOutput>
+    </Content>
     <Content Include="Views\widgets\settings\settings.less">
       <Generator>LessGenerator</Generator>
       <LastGenOutput>settings.css</LastGenOutput>
     </Content>
-    <Content Include="Views\widgets\settings\settings_red.less">
+    <Content Include="Views\widgets\settings\settings-border.less">
       <Generator>LessGenerator</Generator>
-      <LastGenOutput>settings_red.css</LastGenOutput>
+      <LastGenOutput>settings-border.css</LastGenOutput>
+    </Content>
+    <Content Include="Views\chunk\chunk.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>chunk.generated.cs</LastGenOutput>
+    </Content>
+    <Content Include="Views\chunk\chunk.less">
+      <Generator>LessGenerator</Generator>
+      <LastGenOutput>chunk.css</LastGenOutput>
     </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -354,19 +412,31 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Views\shared\editortemplates\single\" />
     <Folder Include="Views\social\likes\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\typings\requirejs\require.d.ts" />
-    <TypeScriptCompile Include="Views\menu\menu.ts" />
-    <TypeScriptCompile Include="Views\shared\editortemplates\single\single-mod.ts" />
-    <TypeScriptCompile Include="Views\shared\editortemplates\single\single.ts" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Dnevnik.FileGenerator\Dnevnik.FileGenerator.csproj">
-      <Project>{f1c01a32-bfda-4190-81dc-b8c0fdaed6ab}</Project>
-      <Name>Dnevnik.FileGenerator</Name>
-    </ProjectReference>
+    <TypeScriptCompile Include="Views\chunk\chunk.ts">
+      <Generator>TscGenerator</Generator>
+      <LastGenOutput>chunk.js</LastGenOutput>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Views\item\item.ts">
+      <Generator>TscGenerator</Generator>
+      <LastGenOutput>item.js</LastGenOutput>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Views\menu\menu.ts">
+      <Generator>TscGenerator</Generator>
+      <LastGenOutput>menu.js</LastGenOutput>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Views\search\search.ts">
+      <Generator>TscGenerator</Generator>
+      <LastGenOutput>search.js</LastGenOutput>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Views\someshit\someshit.ts">
+      <Generator>TscGenerator</Generator>
+      <LastGenOutput>someshit.js</LastGenOutput>
+    </TypeScriptCompile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

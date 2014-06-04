@@ -1,0 +1,10 @@
+D:\Projs\proto\Dnevnik.Proto\Dnevnik.Template\obj\Debug\Dnevnik.Template.csprojResolveAssemblyReference.cache
+D:\Projs\proto\Dnevnik.Proto\Dnevnik.Template\obj\Debug\CSharp\1033\Dnevnik.Template.zip
+D:\Projs\proto\Dnevnik.Proto\Dnevnik.Template\obj\Debug\Dnevnik.Template.dll
+D:\Projs\proto\Dnevnik.Proto\Dnevnik.Template\obj\Debug\Dnevnik.Template.pdb
+D:\Projs\proto\Dnevnik.Proto\Dnevnik.Template\bin\Debug\ItemTemplates\CSharp\1033\Dnevnik.Template.zip
+D:\Projs\proto\Dnevnik.Proto\Tools\Dnevnik.Template\bin\Debug\ItemTemplates\CSharp\1033\Dnevnik.Template.zip
+D:\Projs\proto\Dnevnik.Proto\Tools\Dnevnik.Template\obj\Debug\Dnevnik.Template.csprojResolveAssemblyReference.cache
+D:\Projs\proto\Dnevnik.Proto\Tools\Dnevnik.Template\obj\Debug\CSharp\1033\Dnevnik.Template.zip
+D:\Projs\proto\Dnevnik.Proto\Tools\Dnevnik.Template\obj\Debug\Dnevnik.Template.dll
+D:\Projs\proto\Dnevnik.Proto\Tools\Dnevnik.Template\obj\Debug\Dnevnik.Template.pdb
